@@ -1,0 +1,28 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python3 -c \"import pdf2image; print\\('pdf2image ok'\\)\")",
+      "Bash(python3 -c \"import comtypes\")",
+      "Bash(pip list *)",
+      "Bash(pip3 list *)",
+      "Bash(python3 -m pip list)",
+      "Bash(apt list *)",
+      "Bash(python3 -c \"from PIL import Image; print\\('Pillow ok'\\)\")",
+      "Bash(python3 -c \"from pptx import Presentation; print\\('pptx ok'\\)\")",
+      "Bash(jupyter kernelspec *)",
+      "Bash(/usr/local/bin/python3 -c \"import PIL; print\\(PIL.__version__\\)\")",
+      "Read(//usr/**)",
+      "Read(//usr/local/lib/**)",
+      "Bash(python3.12 -c \"from pptx import Presentation; print\\('pptx ok'\\)\")",
+      "Bash(python3.8 -c \"from pptx import Presentation; print\\('pptx ok'\\)\")",
+      "Bash(find / -name \"*.egg-info\" -path \"*/python-pptx*\")",
+      "Bash(pip3 show *)",
+      "Bash(python3 -c \"import sys,json; nb=json.load\\(sys.stdin\\); print\\(nb.get\\('metadata',{}\\).get\\('kernelspec',{}\\)\\)\")",
+      "Bash(/Python-3.10.12/python -c \"from pptx import Presentation; print\\('pptx ok'\\)\")",
+      "Read(//home/admkrishna/.local/**)",
+      "Read(//home/admkrishna/**)",
+      "Read(//Python-3.10.12/Lib/site-packages/**)",
+      "Bash(/home/admkrishna/.local/share/uv/python/cpython-3.14.3-linux-x86_64-gnu/bin/python3 -c \"from pptx import Presentation; print\\('pptx ok'\\)\")"
+    ]
+  }
+}
